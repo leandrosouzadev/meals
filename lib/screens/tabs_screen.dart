@@ -18,8 +18,8 @@ class _TabsScreenState extends State<TabsScreen> {
   ];
 
   final List<Widget> _screens = [
-    CategoriesScreen(),
-    FavoriteScreen(),
+    const CategoriesScreen(),
+    const FavoriteScreen(),
   ];
 
   _selectScreen(int index) {
